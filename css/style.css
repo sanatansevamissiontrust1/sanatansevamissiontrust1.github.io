@@ -10,8 +10,8 @@
 *****/
 
 body{
-	margin: 0;
-	padding: 0;
+	/*margin: 0;
+	padding: 0;*/
 	overflow-x: hidden;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -24,16 +24,21 @@ a:hover, a:visited, a{
 	position: fixed;
 	width: 100%;
 	z-index: 333;
+	margin: 0;
+	padding: 0;
 }
 .header-row{
-	margin-left: 0px;
-	padding-top: 0px;
+	width :full;
+	margin-left: -120px;
+	margin-right: -35px;
+	padding-top: 0px;*/
+	
 }
 .top-header img.logo{
 	background-color: rgba(0, 0, 0, 0);
 	float: left;
-	/*margin-top: 0px;
-	margin-bottom: 0px;*/
+	margin-right: 0px;
+	margin-bottom: 0px;
 	transition:all 0.7s ease 0s;
 	-webkit-transition:all 0.7s ease 0s;
 	-moz-transition:all 0.7s ease 0s;
@@ -41,7 +46,7 @@ a:hover, a:visited, a{
 	-ms-transition:all 0.7s ease 0s;
 }
 .navbar-default {
-  background-color:transparent;
+  background-color:black;
   border-color: transparent;
   /*margin-bottom: 0;
   margin-top: 0px;*/
@@ -55,8 +60,8 @@ a:hover, a:visited, a{
 	color: #fff;
 }
 ul.nav{
-	margin: 0;
-	padding: 0;
+	/*margin: 0;
+	padding: 0;*/
 }
 .navbar-default .navbar-nav>li>a {
  	font-size: 15px;
@@ -68,9 +73,9 @@ ul.nav{
 	-moz-transition: all .7s ease 0s;
 	-o-transition: all .7s ease 0s;
 	-ms-transition: all .7s ease 0s;
-	/*padding: 11px 20px;
-	padding-bottom:5px
-	border-radius: 20px;*/
+	padding: 10px 95px;
+	padding-bottom:5px;
+	border-radius: 20px;
 }
 .navbar-default .navbar-nav>li>a:hover{
 	color: red;
